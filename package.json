@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/drillflag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Drill CSV/TSV flag tables for quick inspection and cleanup.",
+  "bin": {
+    "drillflag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/drillflag.git"
+  },
+  "homepage": "https://theworker02.github.io/drillflag/",
+  "keywords": [
+    "drill",
+    "flag",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
